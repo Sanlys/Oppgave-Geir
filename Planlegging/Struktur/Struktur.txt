@@ -1,2 +1,30 @@
 Fossefallmetoden:
 
+Oppstart:
+	Krav:
+		Må: 
+			Hent informasjon fra database
+			Sett inn informasjon fra database
+			Bruk en web app for å kommunisere med backend APIen som kommuniserer med database.
+
+		Bør: 
+			En enkel webapp
+			Brukere
+			Kryptering
+			HTTPS (Vil ikke være der i prosjektet, men om det skulle blitt solgt eller brukes , ville jeg brukt https)
+
+		Kan: 
+			Brukere kan dele databaser med hverandre
+			Brukere kan sikkert dele databaser, bare personer med en spesifik lenke kan åpne den, for eksempel.
+
+	Muligheter: 
+
+	Hensikt: Hensikten med prosjektet er at brukere skal kunne legge inn data i sin egen personlige database når som helst, fra hvor som helst, og så enkelt som mulig.
+
+	Mål: Målet vil være å få en linux server oppe å gå, ha ferdig databasesystem og en server til å kontrollere databasen, sette opp en REST api for å kommunisere med serveren fra en klientapplikasjon, i dette tilfellet en web app, men det kan være en native app om det skal trenges i fremtiden. Det jeg må passe mest på i forhold til sikkerhet er å kryptere skikkelig, både private databaser og hashing av passord/private keys.
+
+	Oppgaver: 
+
+	Hvem: Jeg må desverre gjøre alt alene.
+
+	Ressurser og begrensninger: Systemet den skal kjøre på er linux, serveren, databasen og alt backend skal hostes på en enkel linux server. For at den skal kunne hostes, må vi ha full tilgang til en terminal på en linux server vi leier eller kjøper inn.

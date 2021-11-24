@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Hello, world!</title>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta name="description" content="" />
+  
+  <script src="./index.js"></script>
+
+</head>
+
+<body>
+
+  <h1>Create Table:</h1>
+  <input placeholder="Tittel" id="tittel"> 
+  <br>
+  <br>
+  <input placeholder="Informasjon" id="data"> </input>
+  <br>
+  <br>
+  <button class="post" onclick="createTable()"> Send data </button>
+
+
+  <h1>Get Table:</h1>
+  <input placeholder="Tittel" id="GetTableTittel">
+  <br>
+  <br>
+  <button class="GetTable" onclick="getTable()"> Get table </button>
+
+  <h1>Delete Table:</h1>
+  <input placeholder="Tittel" id="DeleteTableTittel">
+  <br>
+  <br>
+  <button class="DeleteTable" onclick="deleteTable()">Delete Table</button>
+</body>
+
+</html>
