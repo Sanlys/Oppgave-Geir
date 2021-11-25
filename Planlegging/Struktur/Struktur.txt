@@ -8,6 +8,7 @@ Oppstart:
 			Bruk en web app for å kommunisere med backend APIen som kommuniserer med database.
 
 		Bør: 
+			Slett informasjon fra databasen
 			En enkel webapp
 			Brukere
 			Kryptering
