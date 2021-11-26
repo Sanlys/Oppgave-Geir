@@ -1,0 +1,3 @@
+Sikkerheten på selve koden er ganske lav, men det er en del ting jeg gjerne skulle implementert.
+
+Nettsiden burde åpenbart hatt en ssl sertifikasjon så jeg kan bruke https. End to end encryption er nødvendig for et prosjekt hvor bruekren skal sende muligens sensitiv informasjon til en server, kanskje også over trådløse nett. Nå er også all dataen i databasen helt ukryptert, men det burde vært kryptert med en hashet versjon av passordet til brukeren. Det er enda ingen brukere, passord eller kryptering, som er fordi det skulle være veldig tungvindt å få third party kode i client side javascript uten å bruke et framework eller legge til mange store skripter i html filen. 
