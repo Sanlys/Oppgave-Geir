@@ -1,0 +1,6 @@
+Systemet inneholder en database, en server side web server og en client side web app. Client side web appen vil ikke hostes hos oss, men vil heller bli kjørt lokalt av brukeren. Brukeren kan verifisere programmet med en md5 checksum, for å se om programmet har blitt endret av en uverifisert tredjepart. 
+
+Kravene som skal til er en port oppe, den er default 8000, og brukeren kan endre porten i en instilling på web clienten. Det er anbefalt å la den være på 8000 for å minske usikkerhet. Den bør kjøre på en linux server, men den skal fungere fint på en windows server, men da må du kanskje endre på tilkoblingen til databasen.
+Databasen installeres på linux gjennom maria-db packagen. Jeg installerte med yay -S maria-db, men samme package fins i de fleste package managere, som apt, pacman eller dnf.
+Webserveren er hardkodet for kun en konto på en server, dette kan hende må endres. Du kan endre dette til din konfigurasjon under variabelen "connection" i index.js filen.
+Databasen settes opp med "sudo mysql_secure_installation" hvor du bare følger stegene den kommer med. Etter dette, kjør sudo systemctl start mariadb for å teste om den fungerer. Om alt fungerer fint, kan du skrive sudo systemctl enable mariadb, for å la den starte på oppstart automatisk.
