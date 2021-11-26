@@ -1,3 +1,5 @@
 (Installasjon av programmvaren vil gjøres av systemadministrator, ikke bruker)
 
-Når du har programmet installert, kan du åpne det ved å dobbelklikke på "index.html" på skrivebordet ditt. Nettleseren din vil åpne seg, med et par tekstfelt du kan fylle ut. Her kan du skrive notater, lage avtaler og dele ideer med andre mennesker i bedriften. Om du vil legge til en ny skriveblokk, som kan enten brukes av deg privat, eller deles med andre, fyller du inn navn i "Create Table". 
+Når du har programmet installert, kan du åpne det ved å dobbelklikke på "index.html" på skrivebordet ditt. Nettleseren din vil åpne seg, med et par tekstfelt du kan fylle ut. Her kan du skrive notater, lage avtaler og dele ideer med andre mennesker i bedriften. Om du vil legge til en ny skriveblokk, som kan enten brukes av deg privat, eller deles med andre, fyller du inn navn i "Create Table". Velg under om du vil lage privat, eller få en delbar link. Etter du har gjort det, trykker du på "Send Data". 
+
+For å finne informasjon om en skriveblokk, skriv inn navnet i "Get table"

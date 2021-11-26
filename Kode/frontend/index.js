@@ -1,4 +1,4 @@
-const Url='http://localhost:500/'
+const Url='http://localhost:10001/'
 
 function createTable() {
 	tittel = document.getElementById('tittel').value

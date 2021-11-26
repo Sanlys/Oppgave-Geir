@@ -4,7 +4,7 @@ const bp = require('body-parser')
 const cors = require('cors')
 const mysql = require('mysql')
 const JSON = require('JSON')
-const port = 500
+const port = 10001
 const {publicEncrypt, privateDecrypt} = require('crypto')
 const {publicKey, privateKey} = require ('./keypair')
 
@@ -42,11 +42,11 @@ function encrypt(message, key) {
 	return(cipherText.toString('hex'))
 }
 
-console.log(encrypt("Hei", publicKey))
+/*console.log(encrypt("Hei", publicKey))
 console.log(decrypt(
 	"5f7e199fb00de1f5173c84b10e89dfda0eb19e17df87fd73be5be951491ae7650daf0f42688509f0f33bf50ce78747a173fc5dd2676aca373dad560c6b258dbbaadd23a00a5618d7b952e55b555acffb844c4e2373a887ca844e41f46356b00bba859247e13243f7a95d89c1fba12bab835d0a74db6ce7c214b6657288b400b1c2586a1db0cc811f805eb63c20aa4455a28a22e11df1c4854a2066a812754e08ddc794d94569cfbdaab03f1130c05b22396776dfea4177eeca01324cb619700228376e125b54d555213dc8ae3ab44147bc97ed6e20081cf45943f33dee1743f408ec512b092ad11ad92bea40d8c14b318a94b31d72b6dd2a70443d0ed74ff2f3b214159dac64bc732bba1728e9992ee6896c9991c44b35d5efdc6fb07e9904ef46ed0cc906ad187b48235841303216025598af00e1b1c636c9ffcd440e2d598f0b0c3a795498423ed1b02141710afb0b24c5243d0b2679e53338c9ba1f325ba8d5119be63d7b94da53700239745f7a59b1511a1f009772ea1bc98311d766789a3740d8505ac0ad145604826d77592e12c3f38430917f41656ee9f7221a73a7b0d472d2b427a9958703270c38131603598f4021d3df3c2d81a3ebb35dd3fd1b079a97ef92ac57b10da3a3767ee820db183ab86cdf9210e825ba67fac362ab91dcd0cbc16936b75c93cf6eef767fab7e6c08b00c18d0a9d7f31dba281dd4fb0447"
 	,privateKey
-))
+))*/
 
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
