@@ -7,3 +7,5 @@ Databasen installeres på linux gjennom maria-db packagen. Jeg installerte med y
 Webserveren er hardkodet for kun en konto på en server, dette kan hende må endres. Du kan endre dette til din konfigurasjon under variabelen "connection" i index.js filen.
 
 Databasen settes opp med "sudo mysql_secure_installation" hvor du bare følger stegene den kommer med. Etter dette, kjør sudo systemctl start mariadb for å teste om den fungerer. Om alt fungerer fint, kan du skrive sudo systemctl enable mariadb, for å la den starte på oppstart automatisk.
+
+For å starte selve serveren, må du kjøre kommandoen "node index.js" filen i mappen "Oppgave-Geir/Kode/backend"
