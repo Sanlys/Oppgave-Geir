@@ -1,4 +1,11 @@
-const Url='http://localhost:10001/'
+function getUrl() {
+	var port = document.getElementById('port').value
+	if(port == '') {
+		port = 8000
+	}
+	var Url=`http://localhost:${port}/`
+	return Url
+}
 
 function createTable() {
 	tittel = document.getElementById('tittel').value
@@ -8,7 +15,7 @@ function createTable() {
 	urlencoded.append("tittel", tittel)
 	urlencoded.append("data", data)
 	
-	fetch(Url+'createTable', {
+	fetch(getUrl()+'createTable', {
 			    method: 'POST',
 			    body: urlencoded,
 			    headers: {
@@ -19,7 +26,7 @@ function createTable() {
 
 function getTable() {
 	table = document.getElementById('GetTableTittel').value
-	fetch(Url+'getTable', {
+	fetch(getUrl()+'getTable', {
 			    method: 'GET',
 			    headers: {
 			    	"Content-Type": "application/x-www-form-urlencoded",
@@ -30,7 +37,7 @@ function getTable() {
 
 function deleteTable() {
 	table = document.getElementById('DeleteTableTittel').value
-	fetch(Url+'deleteTable', {
+	fetch(getUrl()+'deleteTable', {
 				method: 'GET',
 				headers: {
 					"Content-Type": "application/x-www-form-urlencoded",
@@ -51,7 +58,7 @@ function createEntryElement() {
 	urlencoded.append("title", tittel)
 	urlencoded.append("body", body)
 	
-	fetch(Url+'createElement', {
+	fetch(getUrl()+'createElement', {
 		method: 'POST',
 		body: urlencoded,
 		headers: {
@@ -68,7 +75,7 @@ function deleteEntryElement() {
 	urlencoded.append("ID", id)
 	urlencoded.append("table", table)
 
-	fetch(Url+'deleteElement', {
+	fetch(getUrl()+'deleteElement', {
 		method: 'POST',
 		body: urlencoded,
 		headers: {
