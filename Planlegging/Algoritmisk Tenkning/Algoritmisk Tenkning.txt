@@ -1,0 +1,19 @@
+Identifiser:
+
+Dokumenter:
+
+Del opp:
+
+Rekkeflge:
+
+Betingelser:
+
+Programflyt og design:
+	Ligger vedlagt, algoritmisk tenkning.svg
+
+Variabler:
+
+Lkker:
+
+Gjennomfring:
+
