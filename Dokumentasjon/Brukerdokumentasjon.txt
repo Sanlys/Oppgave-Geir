@@ -17,4 +17,4 @@ Etter dette vil du sikkert legge til noe informasjon i skriveblokken din.
 
 For å gjøre dette, legg in navnet på skriveblokken, overskrift på dataen, og dataen i "Create Element"
 
-For å se dataen tilhørende til en spesifik overskrift, skriv inn navn på skriveblokk og overskrift i "Get Element"
+For å se dataen tilhørende til en spesifik overskrift, skriv inn navn på skriveblokk og overskrift i "Get Element".
