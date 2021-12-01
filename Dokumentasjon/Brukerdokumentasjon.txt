@@ -1,5 +1,20 @@
 (Installasjon av programmvaren vil gjøres av systemadministrator, ikke bruker)
 
-Når du har programmet installert, kan du åpne det ved å dobbelklikke på "index.html" på skrivebordet ditt. Nettleseren din vil åpne seg, med et par tekstfelt du kan fylle ut. Her kan du skrive notater, lage avtaler og dele ideer med andre mennesker i bedriften. Om du vil legge til en ny skriveblokk, som kan enten brukes av deg privat, eller deles med andre, fyller du inn navn i "Create Table". Velg under om du vil lage privat, eller få en delbar link. Etter du har gjort det, trykker du på "Send Data". 
+Når du har programmet installert, kan du åpne det ved å dobbelklikke på "index.html" på skrivebordet ditt. Nettleseren din vil åpne seg, med et par tekstfelt du kan fylle ut. Her kan du skrive notater, lage avtaler og dele ideer med andre mennesker i bedriften.
 
-For å finne informasjon om en skriveblokk, skriv inn navnet i "Get table"
+For å bruke programmet må du logge inn med brukernavn og passord øverst på siden. Om brukeren ikke finnes, vil den bli laget.
+
+Om du vil legge til en ny skriveblokk, som kan enten brukes av deg privat, eller deles med andre, fyller du inn navn i "Create Table". Velg under om du vil lage privat, eller få en delbar link. Etter du har gjort det, trykker du på "Send Data". 
+
+For å se overskriftene i en skriveblokk, skriv inn navnet på skriveblokken i "Get table".
+
+For å lage en ny skriveblokk, skriv inn navnet på skriveblokken i "Create table".
+
+For å slette en skriveblokk, skriv inn navnet på skriveblokken i "Delete table". Du kan ikke få en skriveblokk tilbake etter du har fjernet det, så vær forsiktig, og slett riktig skriveblokk!
+
+
+Etter dette vil du sikkert legge til noe informasjon i skriveblokken din.
+
+For å gjøre dette, legg in navnet på skriveblokken, overskrift på dataen, og dataen i "Create Element"
+
+For å se dataen tilhørende til en spesifik overskrift, skriv inn navn på skriveblokk og overskrift i "Get Element"
